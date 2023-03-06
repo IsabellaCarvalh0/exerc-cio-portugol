@@ -1,0 +1,27 @@
+programa 
+{
+  const inteiro num_alunos = 8
+
+  funcao inicio() 
+  {
+    inteiro matricula [8], num_matricula=0
+    cadeia nome_aluno[8], sobrenome_aluno[8], nome, sobrenome
+    real nota1[8], nota2[8], nota3[8], nota4[8]
+    
+    para (inteiro posicao = 0; posicao < 8; posicao++)
+    {
+    escreva("Insira a matrícula do aluno ", posicao,":\n")
+    leia(num_matricula)
+    matricula[posicao] = num_matricula
+
+    escreva ("Insira o nome do aluno ", posicao,":\n")
+    leia(nome)
+    nome_aluno[posicao] = nome
+
+    escreva ("Insira o sobrenome do aluno ", posicao,":\n")
+    leia(sobrenome)
+    sobrenome_aluno[posicao] = sobrenome
+    limpa()
+    }
+  }
+}
